@@ -13,6 +13,7 @@ h1,
 h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
+  text-align: center;
 }
 
 article {
@@ -45,6 +46,25 @@ hr {
 }
 
 /* Add your solution below */
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px; /* Adjust as needed */
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
 
 .image-circle {
   border-radius: 50%;
