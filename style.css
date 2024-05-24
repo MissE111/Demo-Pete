@@ -71,6 +71,8 @@ nav ul li a {
   border: 2px solid #003049;
 }
 
+#portfolio
+
 #portfolio h2 {
   font-size: 32px;
 }
@@ -85,7 +87,14 @@ nav ul li a {
   text-align: center;
 }
 
-header,
+header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20px 0;
+  border-bottom: 2px solid #003049;
+}
+
 footer {
   text-align: center;
 }
