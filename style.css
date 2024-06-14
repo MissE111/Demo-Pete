@@ -76,3 +76,111 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ 
+nav ul li {
+  display: inline;
+  margin-right: 20px; /* Adjust as needed */
+}
+ 
+nav ul li:last-child {
+  margin-right: 0;
+}
+ 
+nav ul li a {
+  text-decoration: none;
+}
+ 
+.image-circle {
+  border-radius: 50%;
+  border: 2px solid #003049;
+}
+ 
+#portfolio h2 {
+  font-size: 32px;
+}
+ 
+#portfolio article {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust as needed for spacing */
+}
+ 
+#portfolio div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px; /* Adjust as needed */
+}
+ 
+#portfolio h3 {
+  font-size: 24px; /* Adjust as needed */
+}
+ 
+#portfolio p {
+  font-size: 14px;
+}
+ 
+#contact h2 {
+  text-align: center;
+}
+ 
+header,
+footer {
+  text-align: center;
+}
+ 
+a {
+  color: #d62828;
+  text-decoration: none;
+}
+ 
+a:hover {
+  color: #f77f00;
+}
+ 
+/* New styles for header and about section */
+ 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 2px solid #003049;
+}
+ 
+header h1 {
+  margin: 0;
+}
+ 
+#about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: left;
+}
+ 
+#about h3 {
+  width: 100%;
+  text-align: center;
+}
+ 
+#about .image-circle {
+  flex: 1 1 150px;
+  max-width: 200px;
+  margin: 0 20px;
+}
+ 
+#about p,
+#about ul {
+  flex: 2 1 300px;
+  margin: 0;
+}
