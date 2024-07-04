@@ -189,6 +189,8 @@ header h1 {
   text-align: left;
 }
 
-.about-text p {
- margin-left: 0;
+.about-text2 {
+ margin-top: 20px;
+  max-width: 600px;
+  text-align: left;
 }
