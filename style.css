@@ -183,14 +183,9 @@ header h1 {
   margin: 0 20px;
 }
  
-.about-text {
+.about-text, .background {
   margin-top: 20px;
   max-width: 600px;
   text-align: left;
 }
 
-.about-text2 {
- margin-top: 20px;
-  max-width: 600px;
-  text-align: left;
-}
